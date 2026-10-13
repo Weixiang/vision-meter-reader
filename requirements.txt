@@ -1,0 +1,8 @@
+# 视觉抄表 Python 依赖
+# 安装：pip install -r requirements.txt
+
+# 图像处理：cv2 (main.py / get_roi_coordinates.py 的透视变换、二值化、轮廓、绘制等)
+opencv-python>=4.8.0
+
+# 数值计算：np (数组/矩阵运算、连通域密度统计)
+numpy>=1.24.0
